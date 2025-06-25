@@ -1,7 +1,14 @@
 
-    <Card className="w-full max-w-sm">
+    <Card className="w-full max-w-sm bg-white shadow-lg rounded-lg">
       <CardHeader>
-        <CardTitle>Login to your account</CardTitle>
+        <CardTitle <div class="card text-center">
+            <img class="card-img-top" src="holder.js/100px180/" alt="Title"> </div>
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Body</p>
+            </div>
+        </div>
+        >Login to your account</CardTitle><br>
         <CardDescription>
           Enter your email below to login to your account
         </CardDescription>
